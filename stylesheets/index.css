@@ -1,0 +1,42 @@
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+body {
+  background-image: url(/images/humor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.5; */
+}
+
+/* div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+} */
+
+.outputContainer {
+  background-color: rgba(211, 211, 211, 0.75);
+  font-family: "comic sans";
+  text-align: center;
+  font-size: 80px;
+  color: darkslategrey;
+  justify-content: center;
+}
+.inputContainer {
+  display: flex;
+  background-color: blue;
+  font-size: 20px;
+  margin: 30px;
+  align-content: center;
+}
+
+button {
+  display: flex;
+  color: green;
+  justify-content: center;
+  align-items: center;
+}
